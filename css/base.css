@@ -8,4 +8,111 @@
   --marquee-duration-animation: calc(var(--marquee-elms) * 3s)
 }
 
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--bg);
+  text-align: left;
+}
+
+.container,
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+
+h2 {
+  color: var(--color-headings);
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  
+  
+}
+
+a {
+  text-decoration: none;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.ul-defaults-none {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-item {
+  color: blue;
+}
+
+
+section,
+header,
+main,
+nav {
+  display: block;
+  justify-content: space-between;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header-lg {
+
+  font-size: 5rem;
+  letter-spacing: -2.5px;
+  line-height: 1.05;
+}
+
+.sub-header {
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  padding-top: 1.25rem;
+  padding-bottom: 1.875rem;
+}
+
+.btn:not(:disabled):not(.disabled){
+  cursor: pointer;
+}
+
+.round-pill {
+  border-radius: 50rem;
+}
+.btn-primary,
+.btn-primary a {
+  color: #fff;
+  background-color: #c24848;
+    border-color: #c24848;
+}
+
+.btn {
+  font-weight: 600;
+  min-width: 175px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 1.63px;
+  display: inline-flex;
+  transition: 0.4s;
+  height: 65px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0 32px 54px rgba(3, 3, 3, 0.12);
+}
 

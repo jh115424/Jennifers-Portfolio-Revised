@@ -1,11 +1,12 @@
 :root {
-
   --marquee-width: 80vw;
   --marquee-height: 15vh;
   --marquee-elms-displayed: 5;
   --marquee-elms: 10;
-  --marquee-elm-width: calc(var(--marquee-width) / var(--marquee-elms-displayed));
-  --marquee-duration-animation: calc(var(--marquee-elms) * 3s)
+  --marquee-elm-width: calc(
+    var(--marquee-width) / var(--marquee-elms-displayed)
+  );
+  --marquee-duration-animation: calc(var(--marquee-elms) * 3s);
 }
 
 body {
@@ -32,13 +33,19 @@ body {
   max-width: 1140px;
 }
 
+a {
+  color: #495fef;
+  text-decoration: none;
+  background-color: transparent;
+}
 
-h2 {
+h1,
+h2,
+h3,
+h4 {
   color: var(--color-headings);
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
-  
-  
 }
 
 a {
@@ -53,11 +60,9 @@ a {
   padding: 0;
 }
 
-
 .nav-item {
   color: blue;
 }
-
 
 section,
 header,
@@ -74,10 +79,14 @@ nav {
 }
 
 .header-lg {
-
   font-size: 5rem;
   letter-spacing: -2.5px;
   line-height: 1.05;
+}
+
+.header-md {
+  font-size: 3rem;
+  letter-spacing: -2px;
 }
 
 .sub-header {
@@ -87,7 +96,7 @@ nav {
   padding-bottom: 1.875rem;
 }
 
-.btn:not(:disabled):not(.disabled){
+.btn:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
 
@@ -98,7 +107,7 @@ nav {
 .btn-primary a {
   color: #fff;
   background-color: #c24848;
-    border-color: #c24848;
+  border-color: #c24848;
 }
 
 .btn {
@@ -115,4 +124,3 @@ nav {
   padding-right: 30px;
   box-shadow: 0 32px 54px rgba(3, 3, 3, 0.12);
 }
-

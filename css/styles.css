@@ -69,6 +69,9 @@
   border-top-left-radius: 10px;
   left: 1px;
 }
+.theme-body .btn-group .switcher-btn.active {
+  background-color: #ced4e7;
+}
 
 .text-wrapper {
   padding: 10px;
@@ -317,6 +320,10 @@
   opacity: 0.5;
 }
 
+.details {
+  font-size: 20px;
+}
+
 .review-preview img {
   width: 100%;
 }
@@ -425,7 +432,7 @@
 
 .main-menu .nav-item {
   padding: 18px;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 26px;
   cursor: pointer;
   text-transform: lowercase;
@@ -474,4 +481,25 @@
 .modal.is-visible {
   visibility: visible;
   opacity: 1;
+}
+
+[data-animation="zoomInOut"].full-site-modal.is-visible,
+[data-animation="slideInOut"].is-visible .modal-dialog {
+  transform: none;
+}
+.container,
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.conference-call {
+
+  font-size: 24px;
+  margin-top: 100px;
+  color: rgb(18, 120, 230);
+
 }

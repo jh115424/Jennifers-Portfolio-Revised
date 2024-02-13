@@ -41,7 +41,6 @@
                         <li class="nav-item">Home</li>
                         <li class="nav-item" data-open="about">About Me</li>
                         <li class="nav-item" data-open="contact">Contact</li>
-
                     </ul>
                 </div>
             </nav>
@@ -163,15 +162,11 @@
                             <img src="./assets/web7.png" alt="avatar">
                         </div>
                         <div class="details">
-                            <div class="name">Jennifer Hodge</div>
+                            <a
+                                href="https://medium.com/@jenniferehodge1/how-to-use-divs-in-web-development-9d24040593c2">Medium.com</a>
                         </div>
                     </div>
-
                 </div>
-
-
-
-
                 <div class="review-item active">
                     <div class="review-text">
                         <h3 class="card-title">Responsive Design made Simple</h3>
@@ -184,13 +179,11 @@
                             <img src="./assets/web8.png" alt="avatar">
                         </div>
                         <div class="details">
-                            <div class="name">Jennifer Hodge</div>
+                            <a
+                                href="https://medium.com/@jenniferehodge1/responsive-design-made-simple-ada9932c9b57">Medium.com</a>
                         </div>
                     </div>
-
                 </div>
-
-
                 <div class="review-item active">
                     <div class="review-text">
                         <h3 class="card-title">Random numbers in javascript</h3>
@@ -202,14 +195,12 @@
                             <img src="./assets/web9.png" alt="avatar">
                         </div>
                         <div class="details">
-                            <div class="name">Jennifer Hodge</div>
+                            <a
+                                href="https://medium.com/@jenniferehodge1/random-numbers-in-javascript-44f61fc72724">Medium.com</a>
 
                         </div>
                     </div>
-
                 </div>
-
-
             </div>
             <div class="slide-ctrl-container">
                 <button>
@@ -219,9 +210,7 @@
                     <i class="fas fa-arrow-right"></i>
                 </button>
             </div>
-
         </section>
-
 
         <!--Modals-->
         <!--About Page Modal-->
@@ -242,8 +231,7 @@
                             expertise is in demand from company to company. </p>
                         <p>My code is clean, simple and will make your website eye catching for all your clients.</p>
                         <div class="contact-me-block">
-                            <div>Email Me:</div>
-                            <a href="mailto:jenniferehodge1@gmail.com">jenniferehodge1@gmail.com</a>
+                            <div>Email Me on the next page.</div>
                         </div>
                     </div>
                 </div>
@@ -262,14 +250,40 @@
 
                     </ul>
                 </div>
+            </div>
+        </div>
+        <!--Contact Page Modal-->
 
+        <div id="contact" class="full-site-modal page-block" data-animation="zoomInOut">
+            <div class="container-fluid">
+                <header class="modal-header">
+                    <h3>CONTACT PAGE</h3>
+                    <i class="fas fa-times" data-close></i>
+                </header>
+                <div class="modal-body">
+                    <div class="contact-text">
+                        <h2 class="header-md">Jennifer Hodge</h2>
+                        <div>Have a project or question? Send me a message</div>
+                        <div>I will reply within 48 hours.</div>
+                    </div>
+
+                    <form action="mailto:jennifer.hodge@russdarrow.com" method="post" enctype="text/plain"
+                        class="folio-form">
+                        <input class="form-control" name="name" type="text" placeholder="Name">
+                        <input class="form-control" name="email" type="email" placeholder="Email">
+                        <input class="form-control" name="subject" type="text" placeholder="Subject">
+                        <textarea class="form-control" name="message" cols="30" rows="3"
+                            placeholder="Write your message..."></textarea>
+                        <input type="submit" value="Send" class="btn btn-primary round-pill">
+                    </form>
+                </div>
             </div>
 
+            <a href="https://calendly.com/jennifer-hodge-shq/30min">
+                <div class="conference-call">Click on this link to schedule a conference call with me!</div>
+            </a>
+
         </div>
-
-
-
-
 
     </main>
     <script src="js/main.js"></script>
